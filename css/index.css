@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+@media (min-width: 600px) and (max-width: 990px){
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hamburger{
+    display: flex;
+    margin-left: auto;
+  }
+  .menu{
+    display: none;
+    visibility: hidden;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social{
+    list-style: none;
+  }
+  
+  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+}
+
+@media (min-width: 991px) and (max-width: 1300px){
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .hamburger{
+    display: flex;
+    margin-left: auto;
+  }
+  .menu{
+    display: none;
+    visibility: hidden;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social{
+    list-style: none;
+  }
+  
+  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+}
+
+@media (min-width: 1301px){
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .hamburger{
+    display: none;
+    visibility: hidden;
+  }
+  .menu{
+    
+    margin-left: auto;
+    background-color: grey;
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+    color: white;
+  }
+  li{
+    float: left;
+    color: black;
+    padding: 20px;
+}
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social{
+    list-style: none;
+  }
+  
+  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+}
