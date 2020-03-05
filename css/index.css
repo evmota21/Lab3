@@ -58,9 +58,11 @@ body {
   ul{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+  }
+
+  .social_icon{
+    flex: 0 0 5%;
   }
 
 }
@@ -112,9 +114,11 @@ body {
   ul{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+  }
+
+  .social_icon{
+    flex: 0 0 5%;
   }
 }
 
@@ -135,7 +139,10 @@ body {
     list-style: none;
     padding: 0;
     overflow: auto;
+  }
+  .menu li{
     color: white;
+    font-weight: bold;
   }
   li{
     float: left;
@@ -179,8 +186,6 @@ body {
   ul{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
   }
 }
