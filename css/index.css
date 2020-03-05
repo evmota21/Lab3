@@ -158,7 +158,11 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
+  main{
+    display: flex;
+    flex-direction: row;
+  }
+
   .product{
     border-style: solid;
     display: flex;
@@ -166,6 +170,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+  
 
   .social{
     list-style: none;
