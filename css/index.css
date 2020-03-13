@@ -21,6 +21,7 @@ body {
   .hamburger{
     display: flex;
     margin-left: auto;
+    color: white;
   }
   .menu{
     display: none;
@@ -35,6 +36,7 @@ body {
     background-color: grey;
     display: flex;
     flex-direction: row;
+    padding: 10px;
   }
   
   h2{
@@ -42,13 +44,19 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  main{
+    padding: 10px;
+  }
   
   .product{
     border-style: solid;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
   }
 
   .social{
@@ -62,7 +70,7 @@ body {
   }
 
   .social_icon{
-    flex: 0 0 5%;
+    flex: 0 0 10%;
   }
 
 }
@@ -72,11 +80,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    align-items: center;
   }
   .hamburger{
     display: flex;
     margin-left: auto;
+    color: white;
   }
   .menu{
     display: none;
@@ -91,6 +100,7 @@ body {
     background-color: grey;
     display: flex;
     flex-direction: row;
+    padding: 10px;
   }
   
   h2{
@@ -101,10 +111,12 @@ body {
   
   .product{
     border-style: solid;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
   }
 
   .social{
@@ -114,11 +126,15 @@ body {
   ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .social_icon{
     flex: 0 0 5%;
+  }
+
+  main{
+    padding: 10px;
   }
 }
 
@@ -126,7 +142,8 @@ body {
   header{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
   }
   .hamburger{
     display: none;
@@ -168,14 +185,17 @@ body {
   main{
     display: flex;
     flex-direction: row;
+    padding: 10px;
   }
 
   .product{
     border-style: solid;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
   }
   
 
@@ -186,6 +206,6 @@ body {
   ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
